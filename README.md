@@ -1,8 +1,10 @@
-This is XML-based Spring and Hibernate CRUD application demonstration with JSP frontend
+This is old-school XML-based Spring and Hibernate CRUD application demonstration with JSP frontend
 
 ## Prerequisites
 
-* MySQL local instance
+* MySQL
+* Tomcat
+* Intellij IDEA
 
 ## Installation
 
@@ -18,19 +20,22 @@ cd web-customer-tracker
 
 ## Usage
 
-```bash
-./gradlew bootRun
-```
+* Add WAR artifact setup in Intellij IDEA:
+Project Structure -> Artifacts -> Add -> Web Application: Exploded -> From Modules -> web-customer-tracker.main
+
+* Add Tomcat Server configuration and select artifact for deployment from previous step
+
+* Run Tomcat Server configuration 
 
 ## Demo
 Create  
-![Alt text](src/main/resources/static/png/web-customer-tracker-save.png?raw=true "Save")
+![Alt text](src/main/resources/screenshots/web-customer-tracker-save.png?raw=true "Save")
 
 Read  
-![Alt text](src/main/resources/static/png/web-customer-tracker-list.png?raw=true "List")
+![Alt text](src/main/resources/screenshots/web-customer-tracker-list.png?raw=true "List")
 
 Update  
-![Alt text](src/main/resources/static/png/web-customer-tracker-update.png?raw=true "Update")
+![Alt text](src/main/resources/screenshots/web-customer-tracker-update.png?raw=true "Update")
 
 Delete  
-![Alt text](src/main/resources/static/png/web-customer-tracker-delete.png?raw=true "Delete")
+![Alt text](src/main/resources/screenshots/web-customer-tracker-delete.png?raw=true "Delete")
