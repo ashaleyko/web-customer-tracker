@@ -1,4 +1,4 @@
-This is old-school XML-based Spring and Hibernate CRUD application demonstration with JSP frontend
+This is old-school XML-based Spring MVC and Hibernate CRUD application demonstration with JSP frontend
 
 ## Prerequisites
 
